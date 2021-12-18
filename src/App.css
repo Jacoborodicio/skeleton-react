@@ -1,0 +1,7 @@
+:root {
+    --primary-main: rebeccapurple;
+}
+
+.app {
+    background-color: var(--primary-main);
+}
