@@ -1,7 +1,8 @@
 :root {
-    --primary-main: rebeccapurple;
+    --primary-main: lightgrey;
 }
 
 .app {
     background-color: var(--primary-main);
+    padding: 1rem;
 }

@@ -7,9 +7,9 @@ const App = () => {
 
     return (
         <div className='app'>
-            <h3>Test</h3>
+            <h3>React skeleton app</h3>
             <div>
-                <p>Hello React :)</p>
+                <p>Hello from React :)</p>
                 <div>
                     <img src={logoReact} width={32} height={32} alt='react-logo'/>
                 </div>

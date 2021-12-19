@@ -18,7 +18,6 @@ const developConfig = {
     },
     target: "web",
     plugins: [
-        new HotModuleReplacementPlugin(),
         new ReactRefreshWebpackPlugin()
     ],
     devtool: "eval-source-map",
