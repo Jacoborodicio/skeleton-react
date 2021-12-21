@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "homepage": "/new-skeleton-webpack",
   "scripts": {
-    "build": "webpack --config config/webpack.prod.js",
+    "build": "webpack --mode=production --config config/webpack.prod.js",
     "start": "webpack serve --config config/webpack.dev.js"
   },
   "dependencies": {
@@ -33,3 +34,4 @@
   },
   "browserslist": "> 0.25%, not dead, not ie 11"
 }
+

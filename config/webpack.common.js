@@ -4,9 +4,9 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
     entry: "./src/index.js",
     output: {
-        path: path.resolve(__dirname, "dist"),
+        path: path.resolve(__dirname, "../dist"),
         filename: "[name].[contenthash].js",
-        publicPath: "auto",
+        publicPath: "/new-skeleton-webpack/",
         clean: true
     },
     module: {
@@ -15,10 +15,6 @@ module.exports = {
                 use: "babel-loader",
                 test: /.(js|jsx)$/,
                 exclude: /node_modules/
-            },
-            {
-                use: ["style-loader", "css-loader", "sass-loader"],
-                test: /.(css|sass|scss)$/,
             },
             {
                 type: "asset",
