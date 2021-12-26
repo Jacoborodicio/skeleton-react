@@ -6,10 +6,17 @@ const path = require("path");
 
 const developConfig = {
     mode: "development",
+    output: {
+        publicPath: "/",
+    },
     devServer: {
         port: 3000,
         static: {
             directory: path.join(__dirname, '../dist'),
+            publicPath: '/'
+        },
+        historyApiFallback: {
+            index: 'index.html'
         },
         compress: true,
         hot: true
